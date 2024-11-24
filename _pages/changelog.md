@@ -10,8 +10,8 @@ include_in_header: true
 
 ### `Latest`
 # **Version 1.5.9**
-- Improve accuracy scan documents
-- Change logo app
+- Free trial for 7 days
+- Improve accurate OCR AI
 
 #### What's New
 - Scan Document: auto detect document from images when add Page

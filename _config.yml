@@ -2,18 +2,18 @@
 page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 1615247381                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                : 6621272384                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
-appstore_link                             : https://apps.apple.com/us/app/ifax-app-send-fax-from-iphone/id1615247381?l=en-us  # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+appstore_link                             : https://apps.apple.com/us/app/doc-scanner-photo-scan-text/id6621272384  # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://apps.apple.com/us/app/ifax-app-send-fax-from-iphone/id1615247381?l=en-us                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+presskit_download_link                    : https://apps.apple.com/us/app/doc-scanner-photo-scan-text/id6621272384                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : # assets/logo.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :     # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Send Fax documents on the go. Fax urgent documents for the important customers. No need to be hurry when you can do it in seconds with iFax.
+app_description                           : Doc Scanner supports photo scan, scan text and can sign, stamp, sharpen your images, for best document quality, combined with top edge OCR engine of Image to Text.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -21,7 +21,7 @@ enable_smart_app_banner                   : true                                
 
 # Information About Yourself
 your_name                                 : Quang Huy                                
-your_link                                 : https://apps.apple.com/us/app/ifax-app-send-fax-from-iphone/id1615247381?l=en-us                    
+your_link                                 : https://apps.apple.com/us/app/doc-scanner-photo-scan-text/id6621272384                    
 your_city                                 : Hanoi                                
 email_address                             : ufaxservice@gmail.com
 facebook_username                         :                                           
@@ -36,29 +36,37 @@ mastodon_link                             : https://mastodon.social/@ebaehr
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Direct
-    description                           : No need for fax machine or phone line, you just open the app, select your contact, and hit send.
+  - title                                 : Scan anything
+    description                           : ID cards, receipts, notes, recipes, photo scan, text scan, business cards, whiteboards and turn them into PDF or JPG files you can work with on your smartphone, tablet.
     fontawesome_icon_name                 : magic
     
-  - title                                 : Convenient
-    description                           : Support both images and pdfs on your phone, you can also scan and auto detect the document with your camera.
+  - title                                 : Documents layout
+    description                           : Scan multiple pages smoothly, photo scan and text scanner pdf for iphone can be combined or merge multiple documents into single document.
     fontawesome_icon_name                 : mobile
 
-  - title                                 : Accurate
-    description                           : Check and preview how your fax looks like before you send them.
+  - title                                 : Auto Detect
+    description                           : Automatically scan without tapping and add pictures for scanning from camera roll.
     fontawesome_icon_name                 : play-circle
 
-  - title                                 : Worldwide
-    description                           : Support over 90 countries internationally, delivered within seconds. No additional fees.
+  - title                                 : Sharing
+    description                           : Share PDF, JPG or Print your document anywhere.
     fontawesome_icon_name                 : sync
 
-  - title                                 : Custom
-    description                           : Personalize the cover pages with your messages. Let us know if you need customer cover template.
+  - title                                 : Edit and Sign 
+    description                           : Text scanner PDF can edit and sign documents with ease using the e-signature feature, preview, reorder, rotate, adjust color in photo scans.
     fontawesome_icon_name                 : adjust
   
-  - title                                 : Effective
-    description                           : Tracking your sent faxes at a glance. Resend the failed faxes without effort.
+  - title                                 : Secure
+    description                           : Protect documents with Face ID or PIN for more securely.
     fontawesome_icon_name                 : star
+
+  - title                                 : Smart Image processing
+    description                           : Image processing engine that allows you to change contrast, enhance, sharpen for the perfect document quality.
+    fontawesome_icon_name                 : arrow-alt-circle-down
+
+  - title                                 : OCR AI
+    description                           : Automatic OCR turns text scanner pdf into content you can edit, copy and share to other documents.
+    fontawesome_icon_name                 : link
 
 
 # Theme Settings
